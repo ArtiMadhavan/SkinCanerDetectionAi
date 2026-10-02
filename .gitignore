@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and models (large files)
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+archive/ISIC2018_Task3_Test_Images/
+models/*
+!models/README.md
+results/*
+!results/README.md
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
